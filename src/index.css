@@ -1,13 +1,105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+    --main-color: #44bd32;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    font-family: 'Almarai', sans-serif;
+    box-sizing: border-box;
+}
+
+.color-body {
+    background-color: #F8F8F8;
+    height: 100vh;
+}
+
+.font {
+    font-family: "Almarai", sans-serif;
+}
+
+.title {
+    color: #224F61;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 64px;
+}
+
+.underline {
+    height: 1px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid var(--main-color);
+}
+
+.btn-c {
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+    border: 1px solid var(--main-color);
+    padding: 5px 10px;
+    transition: 0.5s;
+}
+
+.btn-c:hover {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 24px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--main-color);
+}
+
+.img-item {
+    height: 180px !important;
+    width: 252px !important;
+    border-radius: 5px !important;
+}
+
+.item-description {
+    color: #8C8C8C;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.item-title {
+    color: #555555;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.card-color {
+    background-color: #F8F8F8;
+}
+
+.item-price {
+    color: #B45B35;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.btn-search {
+    color: var(--main-color);
+    border-radius: 8px;
+    border: 3px solid var(--main-color);
+    background-color: white;
+    transition: 0.5s;
+}
+
+.btn-search:hover {
+    color: white;
+    border: 3px solid var(--main-color);
+    border-radius: 8px;
+    background-color: var(--main-color);
+}
+
+.brand-color {
+    color: var(--main-color);
 }
