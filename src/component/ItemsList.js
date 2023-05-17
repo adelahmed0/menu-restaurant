@@ -1,5 +1,5 @@
 import { Col, Row, Card } from "react-bootstrap";
-import { useAnimation, motion, useInView } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
 
 const ItemsList = ({ itemsData }) => {
